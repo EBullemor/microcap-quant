@@ -25,7 +25,7 @@ def test_ai_components():
     print(f"✅ Configuration loaded")
     print(f"   • Deep Research Model: {config.deep_research_model}")
     print(f"   • Primary Model: {config.primary_model}")
-    print(f"   • Market Open Time: {config.market_open_time}")
+    print(f"   • Trading Time: {config.trading_time}")
     
     # Initialize AI engine
     try:
